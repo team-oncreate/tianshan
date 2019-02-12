@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">天山粉丝小助手</string>
+    <string name="about_title">关于天山</string>
+    <string name="about_message">天山是B站上的一名艾尔之光主播。</string>
+    <string name="menu_about">关于</string>
+</resources>

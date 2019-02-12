@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/image_avatar"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/img_avatar"
+        android:layout_centerHorizontal="true"
+        app:civ_border_color="#BBDEFB"
+        app:civ_border_width="5dp" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#4381D4FA"
+        android:text="Cw-天山w"
+        android:textColor="#1E88E5 "
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:id="@+id/layer_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_name"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/text_bilibili"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="天山的B站直播间"
+
+
+            android:textColor="#03A9F4"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button_bilibili"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="点我直达"
+            android:textColor="@color/colorButton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layer_1">
+
+        <TextView
+            android:id="@+id/text_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="QQ粉丝群"
+            android:textColor="#03A9F4"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="点我直达"
+            android:textColor="@color/colorButton" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="给天山留言"
+        android:textColor="@color/colorButton"
+        />
+
+
+</RelativeLayout>
